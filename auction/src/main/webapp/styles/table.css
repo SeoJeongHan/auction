@@ -1,0 +1,61 @@
+.container {
+	text-align: center;
+	overflow: hidden;
+	width: 850px;
+	margin: 0 auto;
+}
+
+.container table {
+	width: 100%;
+}
+
+.container td,.container th {
+	padding: 10px;
+}
+
+.container td:first-child,.container th:first-child {
+	padding-left: 20px;
+}
+
+.container td:last-child,.container th:last-child {
+	padding-right: 20px;
+}
+
+.container th {
+	border-bottom: 1px solid #ddd;
+	position: relative;
+}
+
+.scrollbar3 {
+	margin-left: 220px;
+	float: left;
+	height: 300px;
+	width: 880px;
+	background: #FFF;
+	overflow-y: scroll;
+	margin-bottom: 50px;
+}
+
+.force-overflow {
+	min-height: 450px;
+}
+
+/*
+ *  STYLE 9
+ */
+#style-9::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: #F5F5F5;
+}
+
+#style-9::-webkit-scrollbar {
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-9::-webkit-scrollbar-thumb {
+	background-color: #374957;
+	background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, .2)
+		25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%,
+		rgba(255, 255, 255, .2) 75%, transparent 75%, transparent)
+}

@@ -1,0 +1,19 @@
+
+최종 마지막 수정사항
+
+1. 경로 수정 (ProductReg repository, chart)
+
+2. 판매자 정보 -> 구매자한테만 보여주기.   (수정오케이)
+
+	getall.jsp  <a href="/auction/userInfo/${product.p_s_uid}"></a>
+	category.jsp  <a href="/auction/userInfo/${product.p_s_uid}"></a>
+
+3. DB 미리 넣어 놓기 ~!
+
+4. 전체보기 -> 카테고리 추가
+
+5. 아이디 가입전에 무조건 ! 중복체크를 해야함
+
+6. 프로덕트 디테일 버튼바꾸기 
+
+7. 입찰시...문자로 입력하면 오류 ㅠㅠ

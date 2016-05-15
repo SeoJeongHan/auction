@@ -1,0 +1,31 @@
+div {
+    padding-top : 20px;
+    padding-bottom : 20px;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.label {
+    padding: 1px 3px 2px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: #bfbfbf;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.label.menu1 {
+    background-color: #c43c35;
+}
+.label.menu2 {
+    background-color: #f89406;
+}
+.label.menu3 {
+    background-color: #46a546;
+}
+.label.menu4 {
+    background-color: #62cffc;
+}
